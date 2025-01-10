@@ -1,0 +1,23 @@
+{
+  "name": "hash-storage-backend",
+  "version": "1.0.0",
+  "description": "Hash storage backend blockchain POC",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server.js",
+    "dev": "NODE_ENV=development nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "js-sha3": "^0.9.3",
+    "mongoose": "^8.9.3",
+    "near-api-js": "^4.0.3",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
